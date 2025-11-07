@@ -1,4 +1,6 @@
-.venv
+# Virtual environments
+.venv/
 
-data
+# Data
+.data/
 
