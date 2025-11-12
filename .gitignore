@@ -1,6 +1,17 @@
 # Virtual environments
 .venv/
-.venv
+
+
+# Add these patterns to .gitignore to catch ALL venv folders
+echo "venv/" >> .gitignore
+echo "*/venv/" >> .gitignore
+echo "**/venv/" >> .gitignore
+echo ".venv/" >> .gitignore
+echo "*/.venv/" >> .gitignore
+echo "**/.venv/" >> .gitignore
+
+# Verify it was added
+Get-Content .gitignore | Select-Object -Last 5
 
 # Data files - CORRECT VERSION
 data/*.csv
