@@ -1,9 +1,23 @@
-<<<<<<< HEAD
-# Current main branch content
+# Virtual environment
 venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data files
 data/*.csv
-=======
-# clean-data branch content  
-venv/
-*.csv
->>>>>>> clean-data
+!data/README.md
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Notebooks
+*.ipynb
+
