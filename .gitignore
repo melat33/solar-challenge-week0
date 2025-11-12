@@ -1,2 +1,9 @@
-#virtual enviroment
- .venv/
+<<<<<<< HEAD
+# Current main branch content
+venv/
+data/*.csv
+=======
+# clean-data branch content  
+venv/
+*.csv
+>>>>>>> clean-data
