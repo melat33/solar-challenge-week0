@@ -1,7 +1,4 @@
 # Virtual environments
 .venv/
-.venv
+venv/
 
-# Data files - CORRECT VERSION
-data/*.csv
-!data/README.md
