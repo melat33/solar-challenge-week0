@@ -1,2 +1,10 @@
-#virtual enviroment
- .venv/
+# Virtual environment
+venv/
+env/
+.venv/
+
+
+
+# Notebooks
+*.ipynb
+
