@@ -1,18 +1,53 @@
-# Virtual environments
+# .gitignore
+
+# Virtual environment
+venv/
+env/
 .venv/
+ENV/
 
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Add these patterns to .gitignore to catch ALL venv folders
-echo "venv/" >> .gitignore
-echo "*/venv/" >> .gitignore
-echo "**/venv/" >> .gitignore
-echo ".venv/" >> .gitignore
-echo "*/.venv/" >> .gitignore
-echo "**/.venv/" >> .gitignore
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/*
 
-# Verify it was added
-Get-Content .gitignore | Select-Object -Last 5
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Data files - CORRECT VERSION
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files - keep the directory but ignore CSV files
 data/*.csv
+data/*.xlsx
+data/*.json
 !data/README.md
+
+# Logs
+*.log
+logs/
