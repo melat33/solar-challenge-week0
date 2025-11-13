@@ -32,15 +32,8 @@ wheels/
 .ipynb_checkpoints/
 *.ipynb_checkpoints/*
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
 
-# OS
-.DS_Store
-Thumbs.db
+
 
 # Data files - keep the directory but ignore CSV files
 data/*.csv
@@ -48,6 +41,3 @@ data/*.xlsx
 data/*.json
 !data/README.md
 
-# Logs
-*.log
-logs/
