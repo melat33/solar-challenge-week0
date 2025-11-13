@@ -1,6 +1,13 @@
 # Virtual environments
 .venv/
+venv/
 
 # Data
 .data/
 
+
+venv/
+env/
+.venv/
+*.pyc
+__pycache__/
