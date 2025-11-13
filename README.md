@@ -1,8 +1,3 @@
-# Solar Challenge Analysis Scripts
+# Setup task
 
-This project contains scripts for:
-- Data cleaning and preprocessing
-- Country comparison analysis
-- Dashboard generation
-- Visualization utilities
 
